@@ -4,7 +4,7 @@
 @font-face {
    font-family: norwester;
    src:url(../fonts/webfonts/norwester.woff);}
-
+/********************* nav and header ****************/
 header{
 background-image:url(../img/navbar.png);
 background-size:100%;
@@ -22,15 +22,126 @@ right:110px;
 max-width:75px;
 width:100%;}
 
-
+/********************* project pictures ****************/
 .dot{
 background-image:url(../img/project-dot-preview.jpg);
-max-width:970px;
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+margin-bottom:30px;
 height:580px;}
 
 .dot:hover{
 background-image:url(../img/hover-project-dot-preview.jpg);}
 
+.bmw{
+background-image:url(../img/img-placeholder-medium.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+max-width:470px;
+margin-bottom:30px;
+height:381px;}
+
+.bmw:hover{
+background-image:url(../img/hover-img-placeholder-medium.jpg);}
+
+.odd{
+background-image:url(../img/img-placeholder-medium.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+margin-bottom:30px;
+max-width:470px;
+height:381px;}
+
+.odd:hover{
+background-image:url(../img/hover-img-placeholder-medium.jpg);}
+
+.jewel{
+background-image:url(../img/project-jewel-covers.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+margin-bottom:30px;
+max-width:470px;
+height:381px;}
+
+.jewel:hover{
+background-image:url(../img/hover-project-jewel-covers.jpg);}
+
+.universel{
+background-image:url(../img/img-placeholder-medium.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+margin-bottom:30px;
+max-width:470px;
+height:381px;}
+
+.universel:hover{
+background-image:url(../img/hover-img-placeholder-medium.jpg);}
+
+.aperture{
+background-image:url(../img/img-placeholder-large.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+margin-bottom:30px;
+height:580px;}
+
+.aperture:hover{
+background-image:url(../img/hover-img-placeholder-large.jpg);}
+
+.keep{
+background-image:url(../img/img-placeholder-medium.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+margin-bottom:30px;
+max-width:470px;
+height:381px;}
+
+.keep:hover{
+background-image:url(../img/hover-img-placeholder-medium.jpg);}
+
+.european{
+background-image:url(../img/img-placeholder-medium.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+margin-bottom:30px;
+max-width:470px;
+height:381px;}
+
+.european:hover{
+background-image:url(../img/hover-img-placeholder-medium.jpg);}
+
+.cherry{
+background-image:url(../img/img-placeholder-medium.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+margin-bottom:30px;
+max-width:470px;
+height:381px;}
+
+.cherry:hover{
+background-image:url(../img/hover-img-placeholder-medium.jpg);}
+
+.jack{
+background-image:url(../img/project-jack-and-jill-presentation.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+margin-bottom:30px;
+max-width:470px;
+height:381px;}
+
+.jack:hover{
+background-image:url(../img/hover-project-jack-and-jill-presentation.jpg);}
+
+/********************* project hover titles ****************/
 .project-preview figure{
 overflow: hidden;
 width:100%;
@@ -40,7 +151,7 @@ margin:0 auto;}
 .project-preview figcaption {
 color: white;
 display: table;
-height: 100%;
+height: 30px;
 opacity: 0;
 position: absolute;
 width:282px;
@@ -69,6 +180,8 @@ opacity: 1;}
 -webkit-transform: translateY(40px);
 transform: translateY(40px);}
 
+
+/********************* footer ****************/
 footer{
 	margin:0 auto;
 	position:relative;
