@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@font-face {
+   font-family: norwester;
+   src:url(../fonts/webfonts/norwester.woff);}
+
 header{
 background-image:url(../img/navbar.png);
 background-size:100%;
@@ -10,13 +14,22 @@ height:320px;}
 
 .logo{
 float:left;
-width:100%;}
+margin: 25px 0 0 25px;}
+
 
 .nav{
-position:float;
 right:110px;
 max-width:75px;
 width:100%;}
+
+
+.dot{
+background-image:url(../img/project-dot-preview.jpg);
+max-width:970px;
+height:580px;}
+
+.dot:hover{
+background-image:url(../img/hover-project-dot-preview.jpg);}
 
 .project-preview figure{
 overflow: hidden;
@@ -28,18 +41,21 @@ margin:0 auto;}
 color: white;
 display: table;
 height: 100%;
-left: 30px;
 opacity: 0;
 position: absolute;
-right: 0;
-bottom:60px;
+width:282px;
+left: 50%;
+top:50%;
+margin-left:-150px;
+margin-top:-50px;
 z-index: 100;}
  
 .project-preview figcaption p {
 display: table-cell;
 font-size: 1.5em;
+text-align:center;
+color:white;
 position: relative;
-top: -40px;
 -webkit-transition: all 300ms ease-out;
 -moz-transition: all 300ms ease-out;
 transition: all 300ms ease-out;
@@ -55,10 +71,9 @@ transform: translateY(40px);}
 
 footer{
 	margin:0 auto;
+	position:relative;
 	background-color:black;
-	height:170px;
-	padding:0 30px;}
+	height:47px;}
 footer p{
-	padding-top:15px;
 	font-size:10px;
 	color:white;}
