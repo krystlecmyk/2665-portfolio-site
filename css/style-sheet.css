@@ -14,6 +14,8 @@ height:320px;}
 
 .logo{
 float:left;
+width:100%;
+max-height:100px;
 margin: 25px 0 0 25px;}
 
 
@@ -28,8 +30,7 @@ background-image:url(../img/project-dot-preview.jpg);
 background-size:100%;
 background-repeat:no-repeat;
 width:100%;
-margin-bottom:30px;
-height:580px;}
+height:606px;}
 
 .dot:hover{
 background-image:url(../img/hover-project-dot-preview.jpg);}
@@ -40,8 +41,7 @@ background-size:100%;
 background-repeat:no-repeat;
 width:100%;
 max-width:470px;
-margin-bottom:30px;
-height:381px;}
+height:407px;}
 
 .bmw:hover{
 background-image:url(../img/hover-img-placeholder-medium.jpg);}
@@ -51,9 +51,8 @@ background-image:url(../img/img-placeholder-medium.jpg);
 background-size:100%;
 background-repeat:no-repeat;
 width:100%;
-margin-bottom:30px;
 max-width:470px;
-height:381px;}
+height:407px;}
 
 .odd:hover{
 background-image:url(../img/hover-img-placeholder-medium.jpg);}
@@ -63,9 +62,8 @@ background-image:url(../img/project-jewel-covers.jpg);
 background-size:100%;
 background-repeat:no-repeat;
 width:100%;
-margin-bottom:30px;
 max-width:470px;
-height:381px;}
+height:407px;}
 
 .jewel:hover{
 background-image:url(../img/hover-project-jewel-covers.jpg);}
@@ -75,9 +73,8 @@ background-image:url(../img/img-placeholder-medium.jpg);
 background-size:100%;
 background-repeat:no-repeat;
 width:100%;
-margin-bottom:30px;
 max-width:470px;
-height:381px;}
+height:407px;}
 
 .universel:hover{
 background-image:url(../img/hover-img-placeholder-medium.jpg);}
@@ -87,8 +84,7 @@ background-image:url(../img/img-placeholder-large.jpg);
 background-size:100%;
 background-repeat:no-repeat;
 width:100%;
-margin-bottom:30px;
-height:580px;}
+height:606px;}
 
 .aperture:hover{
 background-image:url(../img/hover-img-placeholder-large.jpg);}
@@ -98,9 +94,8 @@ background-image:url(../img/img-placeholder-medium.jpg);
 background-size:100%;
 background-repeat:no-repeat;
 width:100%;
-margin-bottom:30px;
 max-width:470px;
-height:381px;}
+height:407px;}
 
 .keep:hover{
 background-image:url(../img/hover-img-placeholder-medium.jpg);}
@@ -110,9 +105,8 @@ background-image:url(../img/img-placeholder-medium.jpg);
 background-size:100%;
 background-repeat:no-repeat;
 width:100%;
-margin-bottom:30px;
 max-width:470px;
-height:381px;}
+height:407px;}
 
 .european:hover{
 background-image:url(../img/hover-img-placeholder-medium.jpg);}
@@ -122,9 +116,8 @@ background-image:url(../img/img-placeholder-medium.jpg);
 background-size:100%;
 background-repeat:no-repeat;
 width:100%;
-margin-bottom:30px;
 max-width:470px;
-height:381px;}
+height:407px;}
 
 .cherry:hover{
 background-image:url(../img/hover-img-placeholder-medium.jpg);}
@@ -134,9 +127,8 @@ background-image:url(../img/project-jack-and-jill-presentation.jpg);
 background-size:100%;
 background-repeat:no-repeat;
 width:100%;
-margin-bottom:30px;
 max-width:470px;
-height:381px;}
+height:407px;}
 
 .jack:hover{
 background-image:url(../img/hover-project-jack-and-jill-presentation.jpg);}
@@ -145,7 +137,6 @@ background-image:url(../img/hover-project-jack-and-jill-presentation.jpg);}
 .project-preview figure{
 overflow: hidden;
 width:100%;
-height:100%;
 margin:0 auto;}
  
 .project-preview figcaption {
@@ -180,13 +171,39 @@ opacity: 1;}
 -webkit-transform: translateY(40px);
 transform: translateY(40px);}
 
+@media only screen and (max-width:385px){
+}
 
+.facebook{
+width:100%;
+height:90px;
+}
+
+.skill-icons{
+width:60px;
+max-width:90px;
+min-width:60px;}
+	
+.icon-names{
+	font-family: norwester, sans-serif;
+	font-size:210%;
+	font-weight: normal;
+  font-style: normal;
+  color: #298562;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.7rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4; }
 /********************* footer ****************/
 footer{
-	margin:0 auto;
-	position:relative;
-	background-color:black;
-	height:47px;}
+position:absolute;
+background-image:url(../img/footer-bar.png);
+background-size:100%;
+background-repeat:no-repeat;
+width:100%;
+height:392px;
+margin:0 auto;
+margin-top:90px;}
 footer p{
 	font-size:10px;
-	color:white;}
+	color:black;}

@@ -110,7 +110,8 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 60.5em; }
+  max-width: 60.5em;
+  max-height: 610px; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -1906,17 +1907,20 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #2ba6cb;
-  text-decoration: none;
+  color: #298562;
+  text-decoration:underline;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #258faf; }
+    color: #298562;
+text-decoration:none; }
+a:active {
+	color:#86e39f;}
   a img {
     border: none; }
 
 /* Default paragraph styles */
 p {
-  font-family: inherit;
+  font-family: "futura-pt",sans-serif;
   color: black;
   font-weight: normal;
   font-size: 1rem;
