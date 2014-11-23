@@ -4,6 +4,7 @@
 @font-face {
    font-family: norwester;
    src:url(../fonts/webfonts/norwester.woff);}
+ 
 /********************* nav and header ****************/
 header{
 background-image:url(../img/navbar.png);
@@ -200,6 +201,7 @@ width:100%;
 height:392px;
 margin:0 auto;
 margin-top:90px;}
+
 footer p{
 	font-size:10px;
 	color:black;}
