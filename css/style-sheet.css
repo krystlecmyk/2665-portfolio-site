@@ -5,135 +5,29 @@
    font-family: norwester;
    src:url(../fonts/webfonts/norwester.woff);}
  
-/********************* nav and header ****************/
+/********************* nav and header ****************/	
 header{
-background-image:url(../img/navbar.png);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-height:320px;}
+position:relative;}
 
-.logo{
-float:left;
-width:100%;
-max-height:100px;
-margin: 25px 0 0 25px;}
+header img{
+	width:100%;}
+	
+.logo img{
+max-width:107px;}
 
+.top{
+	top:0;}
 
-.nav{
-right:110px;
-max-width:75px;
-width:100%;}
-
-/********************* project pictures ****************/
-.dot{
-background-image:url(../img/project-dot-preview.jpg);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-height:606px;}
-
-.dot:hover{
-background-image:url(../img/hover-project-dot-preview.jpg);}
-
-.bmw{
-background-image:url(../img/img-placeholder-medium.jpg);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-max-width:470px;
-height:407px;}
-
-.bmw:hover{
-background-image:url(../img/hover-img-placeholder-medium.jpg);}
-
-.odd{
-background-image:url(../img/img-placeholder-medium.jpg);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-max-width:470px;
-height:407px;}
-
-.odd:hover{
-background-image:url(../img/hover-img-placeholder-medium.jpg);}
-
-.jewel{
-background-image:url(../img/project-jewel-covers.jpg);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-max-width:470px;
-height:407px;}
-
-.jewel:hover{
-background-image:url(../img/hover-project-jewel-covers.jpg);}
-
-.universel{
-background-image:url(../img/img-placeholder-medium.jpg);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-max-width:470px;
-height:407px;}
-
-.universel:hover{
-background-image:url(../img/hover-img-placeholder-medium.jpg);}
-
-.aperture{
-background-image:url(../img/img-placeholder-large.jpg);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-height:606px;}
-
-.aperture:hover{
-background-image:url(../img/hover-img-placeholder-large.jpg);}
-
-.keep{
-background-image:url(../img/img-placeholder-medium.jpg);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-max-width:470px;
-height:407px;}
-
-.keep:hover{
-background-image:url(../img/hover-img-placeholder-medium.jpg);}
-
-.european{
-background-image:url(../img/img-placeholder-medium.jpg);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-max-width:470px;
-height:407px;}
-
-.european:hover{
-background-image:url(../img/hover-img-placeholder-medium.jpg);}
-
-.cherry{
-background-image:url(../img/img-placeholder-medium.jpg);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-max-width:470px;
-height:407px;}
-
-.cherry:hover{
-background-image:url(../img/hover-img-placeholder-medium.jpg);}
-
-.jack{
-background-image:url(../img/project-jack-and-jill-presentation.jpg);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-max-width:470px;
-height:407px;}
-
-.jack:hover{
-background-image:url(../img/hover-project-jack-and-jill-presentation.jpg);}
-
+.nav a{
+	color:white;}
+	
+.nav a:hover{
+	color:white;
+	text-decoration:none;}
+	
+.nav a:active{
+	color:black;}
+	
 /********************* project hover titles ****************/
 .project-preview figure{
 overflow: hidden;
@@ -172,10 +66,16 @@ opacity: 1;}
 -webkit-transform: translateY(40px);
 transform: translateY(40px);}
 
-@media only screen and (max-width:385px){
+/********************* responsive ****************/
+@media only screen and (max-width:736px){
+	.logo img{
+		width:30%;}
+	.bottom{
+	margin-bottom:-10px;}
+
 }
 
-
+/*********************** icons ****************/
 .skill-icons{
 width:60px;
 max-width:90px;
@@ -193,15 +93,18 @@ min-width:60px;}
   line-height: 1.4; }
 /********************* footer ****************/
 footer{
-position:absolute;
-background-image:url(../img/footer-bar.png);
-background-size:100%;
-background-repeat:no-repeat;
-width:100%;
-height:392px;
-margin:0 auto;
-margin-top:90px;}
+position:relative;}
 
-footer p{
-	font-size:10px;
-	color:black;}
+footer img{
+	width:100%;}
+	
+.absolute{
+position:absolute;
+width:100%;}
+
+.bottom{
+	bottom:0;}
+
+.absolute p{
+	font-size:6px;
+	color:white;}
