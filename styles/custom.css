@@ -83,6 +83,13 @@ width:60px;
 margin-bottom:20px;
 }
 
+.aiga-icon img {
+max-width:90px;
+min-width:60px;
+width:60px;
+}
+
+
 .margin img {
 margin-right:25px;
 margin-top:25px;
@@ -101,6 +108,11 @@ margin-left:20px;
 .clear-padding {
 padding:0;
 margin-bottom:0;
+}
+
+.aiga-text {
+padding-left:40px;
+
 }
 
 .absolute {
