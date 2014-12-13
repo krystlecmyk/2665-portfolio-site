@@ -174,6 +174,7 @@ margin-bottom:-10px;
 
 .bottom p{
 padding:15px;
+bottom:0;
 }
 
 .aboutme{
@@ -181,7 +182,7 @@ font-size:14px;
 }
 }
 
-@media only screen and (max-width:630px) {
+@media only screen and (max-width:640px) {
 
 .logo img{
 width:85%;
@@ -191,4 +192,10 @@ width:85%;
 margin-left:-25px;
 margin-top:-5px;
 }
+
+.bottom {
+bottom:0;
+}
+
+.jack a{background-image: url('../images/hover-project-jack-and-jill-tag-small.jpg');}
 }
