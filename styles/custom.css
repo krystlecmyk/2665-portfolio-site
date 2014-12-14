@@ -13,66 +13,91 @@ background-color:#ecfaf0;
 margin-bottom:1.875rem;
 }
 
-.project-info{
-  position:relative;}
-  
-.project-info p{color:#FFF;
-  padding:8% 8% 3% 8%;
+.project-info p {
+color:#FFF;
+font-size:1.5em;
+text-align:center;
+margin:0;
+padding:8% 8% 3%;
+}
 
-  font-size: 1.5em;
-  text-align:center;
-  margin: 0;}
+.project-info a {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-image:url();
+background-size:100%;
+color:#FFF;
+visibility:hidden;
+text-decoration:none;
+transition:all .05s ease-in-out;
+}
 
-.project-info a{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('');
-  background-size: 100%;
-  color: #FFF;
-  visibility: hidden;
-  text-decoration: none;
-  transition: all 0.05s ease-in-out;}
+.bmw a {
+background-image:url(../images/hover-project-bmw-cca-purple-car-spread-large.jpg);
+}
 
-.bmw a{background-image: url('../images/hover-img-placeholder-medium.jpg');}
-.dot a{background-image: url('../images/hover-project-dot-preview.jpg');}
-.odd a{background-image: url('../images/hover-img-placeholder-medium.jpg');}
-.jewel a{background-image: url('../images/hover-project-jewel-covers.jpg');}
-.universel a{background-image: url('../images/hover-img-placeholder-medium.jpg');}
-.aperture a{background-image: url('../images/hover-img-placeholder-large.jpg');}
-.blur a{background-image: url('../images/hover-img-placeholder-medium.jpg');}
-.european a{background-image: url('../images/hover-img-placeholder-medium.jpg');}
-.cherry a{background-image: url('../images/hover-img-placeholder-medium.jpg');}
-.jack a{background-image: url('../images/hover-project-jack-and-jill-tag-large.jpg');}
+.dot a {
+background-image:url(../images/hover-project-dot-all-front-large.jpg);
+}
 
+.odd a {
+background-image:url(../images/project-odd-duck-style-guide-logo-spread-large.jpg);
+}
 
+.jewel a {
+background-image:url(../images/hover-project-jewel-of-seven-stars-covers-front-large.jpg);
+}
 
+.universel a {
+background-image:url(../images/hover-project-universel-before-and-after-spread-large.jpg);
+}
 
-.project-info-center{position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);}
+.aperture a {
+background-image:url(../images/hover-project-aperture-front-large.jpg);
+}
 
-.project-img{
-  margin-top:100px;}
+.blur a {
+background-image:url(../images/hover-project-blur-parties-double-spread-ad-front-large.jpg);
+}
 
-.project-info:hover a{
-  visibility: visible;}
+.european a {
+background-image:url(../images/hover-project-european-auto-tech-responsive-display-large.jpg);
+}
 
-.large-6 textarea{
-  height:200px;}
+.cherry a {
+background-image:url(../images/hover-project-cherry-bunny-package-large.jpg);
+}
 
+.jack a {
+background-image:url(../images/hover-project-jack-and-jill-tag-large.jpg);
+}
 
+.project-info-center {
+position:relative;
+top:50%;
+-webkit-transform:translateY(-50%);
+-ms-transform:translateY(-50%);
+transform:translateY(-50%);
+}
 
+.project-img {
+margin-top:100px;
+}
 
+.project-info:hover a {
+visibility:visible;
+}
+
+.large-6 textarea {
+height:200px;
+}
 
 .padding-right {
 padding-right:1.875rem;
 }
-
 
 .aboutme {
 font-family:futura pt, sans-serif;
@@ -84,7 +109,6 @@ margin-left:-15px;
 .aboutme:active {
 color:#FFF;
 }
-
 
 .top {
 top:0;
@@ -123,6 +147,11 @@ margin-bottom:0;
 padding:0;
 }
 
+.clear-margin {
+margin-bottom:0;
+padding-bottom:0;
+}
+
 .aiga-text {
 padding-left:40px;
 }
@@ -141,10 +170,6 @@ margin-bottom:0;
 color:#FFF;
 font-size:14px;
 text-align:center;
-}
-
-header,footer {
-position:relative;
 }
 
 header img,footer img {
@@ -166,29 +191,31 @@ font:16pt futura-pt,sans-serif;
 font-variant:small-caps;
 }
 
-@media only screen and (max-width:736px) {
+.project-info,header,footer {
+position:relative;
+}
 
+@media only screen and (max-width:736px){
 .bottom {
 margin-bottom:-10px;
 }
 
-.bottom p{
-padding:15px;
+.bottom p {
 bottom:0;
+padding:15px;
 }
 
-.aboutme{
+.aboutme {
 font-size:14px;
 }
 }
 
 @media only screen and (max-width:640px) {
-
-.logo img{
+.logo img {
 width:85%;
 }
 
-.aboutme{
+.aboutme {
 margin-left:-25px;
 margin-top:-5px;
 }
@@ -197,5 +224,43 @@ margin-top:-5px;
 bottom:0;
 }
 
-.jack a{background-image: url('../images/hover-project-jack-and-jill-tag-small.jpg');}
+.jack a {
+background-image:url(../images/hover-project-jack-and-jill-tag-small.jpg);
+}
+
+.cherry a {
+background-image:url(../images/hover-project-cherry-bunny-package-small.jpg);
+}
+
+.blur a {
+background-image:url(../images/hover-project-blur-parties-double-spread-ad-front-small.jpg);
+}
+
+.jewel a {
+background-image:url(../images/hover-project-jewel-of-seven-stars-covers-front-small.jpg);
+}
+
+.dot a {
+background-image:url(../images/hover-project-dot-all-front-small.jpg);
+}
+
+.odd a {
+background-image:url(../images/project-odd-duck-style-guide-logo-spread-small.jpg);
+}
+
+.bmw a {
+background-image:url(../images/hover-project-bmw-cca-purple-car-spread-large.jpg);
+}
+
+.universel a {
+background-image:url(../images/hover-project-universel-before-and-after-spread-small.jpg);
+}
+
+.aperture a {
+background-image:url(../images/hover-project-aperture-front-small.jpg);
+}
+
+.european a {
+background-image:url(../images/hover-project-european-auto-tech-responsive-display-small.jpg);
+}
 }

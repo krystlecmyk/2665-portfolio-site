@@ -21,15 +21,16 @@
   
   <body>
     <header>
-      
-      <img src="../images/navbar.svg" alt="header"/>
+      <img data-interchange="[../images/navbar.svg, (default)],[../images/navbar-small.svg, (small)], [../images/navbar.svg, (medium)], [../images/navbar.svg, (large)]" alt="header"/>
       <div class="absolute top">
-		<div class="large columns logo">
+        <div class="large-2 medium-2 small-3 columns logo">
           <a href="../index.html">
-            <img src="../images/logo.svg" alt="krystlize logo"/>
+            <img data-interchange="[../images/logo.svg, (default)], [../images/logo-large.svg, (large)]" alt="krystlize logo"/>
           </a>
+        </div>
+        <div class="large-2 medium-3 small-4 columns end aboutme">
           <a href="../about.html">
-            Learn More
+            learn about me
           </a>
         </div>
       </div>
@@ -46,7 +47,7 @@
     
     <div class="row">
       <div class="large-6 medium-6 small columns">
-        <img src="../images/img-placeholder-medium.jpg" alt="jack logo image"/>
+        <img data-interchange="[../images/project-jack-and-jill-tag-large.jpg, (default)],[../images/project-jack-and-jill-tag-small.jpg, (small)], [../images/project-jack-and-jill-tag-large.jpg, (medium)], [../images/project-jack-and-jill-tag-large.jpg, (large)]" alt="jack and jill clothing sales tag"/>
       </div>
       <div class="large-6 medium-6 small columns skill-icons margin">
       <b>Logo &#47 Identity System</b>
@@ -59,26 +60,40 @@
         
       </div>
     </div>
+    <!--<img src="../images/project-jack-and-jill-business-card-small.jpg" alt="jack clothing label image"/> -->
     
-    
+    <div class="row">
+      <div class="large columns">
+        <img data-interchange="[../images/project-jack-and-jill-envelope-large.jpg, (default)], [../images/project-jack-and-jill-envelope-small.jpg, (small)], [../images/project-jack-and-jill-envelope-large.jpg, (medium)], [../images/project-jack-and-jill-envelope-large.jpg, (large)]" alt="jack and jill's envelope"/>
+      </div>
+      </div>
+
+<div class="row">      
+      <div class="large-6 medium-6 small columns">
+        <img data-interchange="[../images/project-jack-and-jill-clothing-tag-large.jpg, (default)], [../images/project-jack-and-jill-clothing-tag-small.jpg, (small)], [../images/project-jack-and-jill-clothing-tag-large.jpg, (medium)], [../images/project-jack-and-jill-clothing-tag-large.jpg, (large)]" alt="jack and jill's custom clothing tag"/>
+      </div>
+      <div class="large-6 medium-6 small columns">
+        <img data-interchange="[../images/project-jack-and-jill-shopping-bag-large.jpg, (default)], [../images/project-jack-and-jill-shopping-bag-small.jpg, (small)], [../images/project-jack-and-jill-shopping-bag-large.jpg, (medium)], [../images/project-jack-and-jill-shopping-bag-large.jpg, (large)]" alt="jack and jill's shopping bag"/>
+      </div>
+    </div>
     
     <div class="row">
       <div class="large-6 medium-6 small columns">
-        <img src="../images/img-placeholder-medium.jpg" alt="jack biz card image"/>
+        <img data-interchange="[../images/project-jack-and-jill-business-card-large.jpg, (default)], [../images/project-jack-and-jill-business-card-small.jpg, (small)], [../images/project-jack-and-jill-business-card-large.jpg, (medium)], [../images/project-jack-and-jill-business-card-large.jpg, (large)]" alt="jack and jill's business card"/>
       </div>
       <div class="large-6 medium-6 small columns">
-        <img src="../images/img-placeholder-medium.jpg" alt="jack clothing label image"/>
+        <img data-interchange="[../images/project-jack-and-jill-letterhead-large.jpg, (default)], [../images/project-jack-and-jill-letterhead-small.jpg, (small)], [../images/project-jack-and-jill-letterhead-large.jpg, (medium)], [../images/project-jack-and-jill-letterhead-large.jpg, (large)]" alt="jack and jill's letterhead"/>
       </div>
     </div>
     
     <div class="row">
       <div class="large columns">
-        <img src="../images/img-placeholder-large.jpg" alt="jack main image"/>
+        <img data-interchange="[../images/project-jack-and-jill-identity-presentation-large.jpg, (default)],[../images/project-jack-and-jill-identity-presentation-small.jpg, (small)], [../images/project-jack-and-jill-identity-presentation-large.jpg, (medium)], [../images/project-jack-and-jill-identity-presentation-large.jpg, (large)]" alt="jack and jill's identity presentation of business card, envelope, and letterhead"/>
       </div>
     </div>
     
     <div class="row">
-      <div class="large columns">
+      <div class="large columns clear-margin">
         <h2>
           other krystlizations
         </h2>
@@ -126,15 +141,16 @@
     
     
     <footer>
-      <img src="../images/footer-bar.svg" alt="footer"/>
-      <div class="absolute bottom">
-        <div class="large small-9">
-          <p>
-            Copyright &copy; 2014 krystlize.com      Hello@krystlize.com  |  402.802.4682
-          </p>
-        </div>
-      </div>
-    </footer>
+  	<img data-interchange="[../images/footer.svg, (default)],[../images/footer-small.svg, (small)], [../images/footer.svg, (medium)], [../images/footer.svg, (large)]" alt="footer"/>
+    <div class="absolute bottom">
+      <div class="large medium small">
+		<p>
+          Copyright &copy; 2014 krystlize.com   Hello@krystlize.com  |  402.802.4682
+          
+      </p>
+  </div>
+  </div>
+  </footer>
     
     <script src="../scripts/vendor/modernizr.js">
     </script>

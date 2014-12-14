@@ -21,15 +21,16 @@
   
   <body>
     <header>
-      
-      <img src="../images/navbar.svg" alt="header"/>
+      <img data-interchange="[../images/navbar.svg, (default)],[../images/navbar-small.svg, (small)], [../images/navbar.svg, (medium)], [../images/navbar.svg, (large)]" alt="header"/>
       <div class="absolute top">
-        <div class="large columns logo">
+        <div class="large-2 medium-2 small-3 columns logo">
           <a href="../index.html">
-            <img src="../images/logo.svg" alt="krystlize logo"/>
+            <img data-interchange="[../images/logo.svg, (default)], [../images/logo-large.svg, (large)]" alt="krystlize logo"/>
           </a>
+        </div>
+        <div class="large-2 medium-3 small-4 columns end aboutme">
           <a href="../about.html">
-            Learn More
+            learn about me
           </a>
         </div>
       </div>
@@ -46,7 +47,7 @@
     
     <div class="row">
       <div class="large-6 medium-6 small columns">
-        <img src="../images/img-placeholder-medium.jpg" alt="jewel cover image"/>
+        <img data-interchange="[../images/project-jewel-of-seven-stars-chapter-large.jpg, (default)], [../images/project-jewel-of-seven-stars-chapter-small.jpg, (small)], [../images/project-jewel-of-seven-stars-chapter-large.jpg, (medium)], [../images/project-jewel-of-seven-stars-chapter-large.jpg, (large)]" alt="jewel of seven stars chapter with eye of horus illustration"/>
       </div>
       <div class="large-6 medium-6 small columns skill-icons margin">
       <b>Novel Design Concept</b>
@@ -64,16 +65,19 @@
     
     
     <div class="row">
-      <div class="large-6 medium-6 small columns">
-        <img src="../images/img-placeholder-medium.jpg" alt="jewel chapter image"/>
-      </div>
-      <div class="large-6 medium-6 small columns">
-        <img src="../images/img-placeholder-medium.jpg" alt="jewel dust sleeve image"/>
+      <div class="large columns">
+        <img data-interchange="[../images/project-jewel-of-seven-stars-covers-large.jpg, (default)], [../images/project-jewel-of-seven-stars-covers-small.jpg, (small)], [../images/project-jewel-of-seven-stars-covers-large.jpg, (medium)], [../images/project-jewel-of-seven-stars-covers-large.jpg, (large)]" alt="jewel of seven stars cover with scarab illustration surrounded by smoke"/>
       </div>
     </div>
     
     <div class="row">
       <div class="large columns">
+        <img data-interchange="[../images/project-jewel-of-seven-stars-chapter-illustrations-large.jpg, (default)], [../images/project-jewel-of-seven-stars-chapter-illustrations-small.jpg, (small)], [../images/project-jewel-of-seven-stars-chapter-illustrations-large.jpg, (medium)], [../images/project-jewel-of-seven-stars-chapter-illustrations-large.jpg, (large)]" alt="jewel of seven stars chapter illustrations"/>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="large columns clear-margin">
         <h2>
           other krystlizations
         </h2>
@@ -122,15 +126,16 @@
     
     
     <footer>
-      <img src="../images/footer-bar.svg" alt="footer"/>
-      <div class="absolute bottom">
-        <div class="large small-9">
-          <p>
-            Copyright &copy; 2014 krystlize.com      Hello@krystlize.com  |  402.802.4682
-          </p>
-        </div>
-      </div>
-    </footer>
+  	<img data-interchange="[../images/footer.svg, (default)],[../images/footer-small.svg, (small)], [../images/footer.svg, (medium)], [../images/footer.svg, (large)]" alt="footer"/>
+    <div class="absolute bottom">
+      <div class="large medium small">
+		<p>
+          Copyright &copy; 2014 krystlize.com   Hello@krystlize.com  |  402.802.4682
+          
+      </p>
+  </div>
+  </div>
+  </footer>
     
     <script src="../scripts/vendor/modernizr.js">
     </script>

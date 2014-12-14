@@ -19,14 +19,16 @@
   </head>
   <body>
     <header>
-      <img src="../images/navbar.svg" alt="header"/>
+      <img data-interchange="[../images/navbar.svg, (default)],[../images/navbar-small.svg, (small)], [../images/navbar.svg, (medium)], [../images/navbar.svg, (large)]" alt="header"/>
       <div class="absolute top">
-        <div class="large columns logo">
+        <div class="large-2 medium-2 small-3 columns logo">
           <a href="../index.html">
-            <img src="../images/logo.svg" alt="krystlize logo"/>
+            <img data-interchange="[../images/logo.svg, (default)], [../images/logo-large.svg, (large)]" alt="krystlize logo"/>
           </a>
+        </div>
+        <div class="large-2 medium-3 small-4 columns end aboutme">
           <a href="../about.html">
-            Learn More
+            learn about me
           </a>
         </div>
       </div>
@@ -68,7 +70,7 @@
   </div>
   </div>
   <div class="row">
-	<div class="large columns">
+	<div class="large columns clear-margin">
       <h2>
         other krystlizations
       </h2>
@@ -114,11 +116,12 @@
   </div>
   </div>
   <footer>
-    <img src="../images/footer-bar.svg" alt="footer"/>
+  	<img data-interchange="[../images/footer.svg, (default)],[../images/footer-small.svg, (small)], [../images/footer.svg, (medium)], [../images/footer.svg, (large)]" alt="footer"/>
     <div class="absolute bottom">
-      <div class="large small-9">
+      <div class="large medium small">
 		<p>
-          Copyright &copy; 2014 krystlize.com      Hello@krystlize.com  |  402.802.4682
+          Copyright &copy; 2014 krystlize.com   Hello@krystlize.com  |  402.802.4682
+          
       </p>
   </div>
   </div>
