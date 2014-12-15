@@ -1,4 +1,4 @@
-@charset UTF-8;
+/*@charset UTF-8;*/
 
 @font-face {
 font-family:norwester;
@@ -100,7 +100,7 @@ padding-right:1.875rem;
 }
 
 .aboutme {
-font-family:futura pt, sans-serif;
+font-family:futura-pt,sans-serif;
 font-size:1.25rem;
 margin-top:25px;
 margin-left:-15px;
