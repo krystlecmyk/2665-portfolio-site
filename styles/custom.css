@@ -6,7 +6,7 @@ src:url(../fonts/norwester.woff);
 }
 
 body {
-background-color:#ecfaf0;
+background-color:#ccffcc;
 }
 
 .columns {
@@ -44,7 +44,7 @@ background-image:url(../images/hover-project-dot-all-front-large.jpg);
 }
 
 .odd a {
-background-image:url(../images/project-odd-duck-style-guide-logo-spread-large.jpg);
+background-image:url(../images/hover-project-odd-duck-style-guide-logo-spread-large.jpg);
 }
 
 .jewel a {
@@ -52,7 +52,7 @@ background-image:url(../images/hover-project-jewel-of-seven-stars-covers-front-l
 }
 
 .universel a {
-background-image:url(../images/hover-project-universel-before-and-after-spread-large.jpg);
+background-image:url(../images/hover-project-universel-before-and-after-page-front-large.jpg);
 }
 
 .aperture a {
@@ -245,7 +245,7 @@ background-image:url(../images/hover-project-dot-all-front-small.jpg);
 }
 
 .odd a {
-background-image:url(../images/project-odd-duck-style-guide-logo-spread-small.jpg);
+background-image:url(../images/hover-project-odd-duck-style-guide-logo-spread-small.jpg);
 }
 
 .bmw a {
@@ -253,7 +253,7 @@ background-image:url(../images/hover-project-bmw-cca-purple-car-spread-large.jpg
 }
 
 .universel a {
-background-image:url(../images/hover-project-universel-before-and-after-spread-small.jpg);
+background-image:url(../images/hover-project-universel-before-and-after-page-small.jpg);
 }
 
 .aperture a {
