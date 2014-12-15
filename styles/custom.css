@@ -4,6 +4,9 @@
 font-family:norwester;
 src:url(../fonts/norwester.woff);
 }
+.row {
+max-height:1000px;
+}
 
 body {
 background-color:#ccffcc;
@@ -138,7 +141,6 @@ font:normal normal 210% norwester, sans-serif;
 line-height:1.4;
 margin-bottom:1.95rem;
 margin-top:.4rem;
-text-rendering:optimizeLegibility;
 margin-left:20px;
 }
 
@@ -186,6 +188,10 @@ width:124px;
 margin-bottom:20px;
 }
 
+.social a {
+text-decoration:none;
+}
+
 .project-list a {
 font:16pt futura-pt,sans-serif;
 font-variant:small-caps;
@@ -222,6 +228,11 @@ margin-top:-5px;
 
 .bottom {
 bottom:0;
+margin-bottom:0;
+}
+
+.bottom p {
+padding-bottom:0;
 }
 
 .jack a {
@@ -262,5 +273,11 @@ background-image:url(../images/hover-project-apreture-cake-is-a-lie-spread-front
 
 .european a {
 background-image:url(../images/hover-project-european-auto-tech-responsive-display-small.jpg);
+}
+}
+
+@media only screen and (max-width:400px) {
+.aboutme {
+font-size:9pt;
 }
 }
