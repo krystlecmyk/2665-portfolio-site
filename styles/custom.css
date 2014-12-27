@@ -4,6 +4,7 @@
 font-family:norwester;
 src:url(../fonts/norwester.woff);
 }
+
 .row {
 max-height:1000px;
 }
@@ -14,6 +15,23 @@ background-color:#ccffcc;
 
 .columns {
 margin-bottom:1.875rem;
+}
+
+.bottom {
+bottom:0;
+margin-bottom:0;
+}
+
+.bottom p {
+color:#FFF;
+font-size:14px;
+text-align:center;
+}
+
+.bottom a {
+color:#FFF;
+font-size:14px;
+text-decoration:none;	
 }
 
 .project-info p {
@@ -163,17 +181,6 @@ position:absolute;
 width:100%;
 }
 
-.bottom {
-bottom:0;
-margin-bottom:0;
-}
-
-.bottom p {
-color:#FFF;
-font-size:14px;
-text-align:center;
-}
-
 header img,footer img {
 width:100%;
 }
@@ -273,11 +280,5 @@ background-image:url(../images/hover-project-apreture-cake-is-a-lie-spread-front
 
 .european a {
 background-image:url(../images/hover-project-european-auto-tech-responsive-display-small.jpg);
-}
-}
-
-@media only screen and (max-width:400px) {
-.aboutme {
-font-size:9pt;
 }
 }
